@@ -1,0 +1,21 @@
+table {
+    width: 100%;
+    border-top-style: solid;
+    border-top-width: 0.001vw;
+}
+
+nav {
+    margin-bottom: 1vw;
+}
+
+.container-fluid {
+    padding: 1vw;
+}
+
+mat-divider {
+    margin: 1vw;
+}
+
+.girlLookAtThatBody {
+    overflow-y: inherit !important;
+}
