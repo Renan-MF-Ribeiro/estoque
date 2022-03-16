@@ -38,6 +38,8 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
 
 
 const materialModules = [
+  
+  MatSortModule,
   CdkTreeModule,
   MatAutocompleteModule,
   MatButtonModule,

@@ -13,6 +13,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AngularMaterialModule } from './angular-material.module';
 import { HighchartsChartModule } from 'highcharts-angular';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSelectionList } from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
   ],
-  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}],
+  providers: [{provide: LOCALE_ID, useValue: 'pt-BR'}, MatSelectionList],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
